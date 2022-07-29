@@ -1,0 +1,33 @@
+#mainpage h5 {
+    color: $card-color;
+}
+
+#mainpage * {
+    border-radius: $default-border-radius;
+}
+
+#mainpage img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#mainpage .breadcrumb a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+#mainpage .page-item a {
+    background-color: $card-color;
+    color: $accent-color;
+}
+
+#mainpage .page-item.active a {
+    background-color: $accent-color;
+    color: $card-color;
+}
+
+#mainpage .card-img-top {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}

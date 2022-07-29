@@ -1,0 +1,21 @@
+#searchpage .card {
+    border-radius: $default-border-radius;
+}
+
+#searchpage .card-img-top {
+    border-top-left-radius: $default-border-radius;
+    border-top-right-radius: $default-border-radius;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+#searchpage .btn {
+    border-radius: $default-border-radius;
+}
+
+@media only screen and (max-width:992px) {
+    .img-thumbnail{margin-top:1rem}
+
+    
+}

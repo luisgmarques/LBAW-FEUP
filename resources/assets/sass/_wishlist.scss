@@ -1,0 +1,18 @@
+#wishlist .card:nth-of-type(1) {
+    border-top-right-radius: $default-border-radius;
+    border-top-left-radius: $default-border-radius;
+}
+
+#wishlist .card:nth-last-child(1) {
+    border-bottom-right-radius: $default-border-radius;
+    border-bottom-left-radius: $default-border-radius;
+}
+
+#wishlist .card .btn.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#wishlist .btn {
+    border-radius: $default-border-radius;
+}

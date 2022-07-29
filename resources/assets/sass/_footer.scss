@@ -1,0 +1,17 @@
+footer .container a {
+    color: $accent-color;
+    text-decoration: none;
+}
+
+// doesnt work 10/10 with mobile, TODO: @media
+main {
+    min-height: calc(100vh - 8.5rem);
+}
+
+footer hr {
+    margin-top: 0;
+}
+
+footer #footer-text {
+    color: $header-color;
+}

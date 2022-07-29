@@ -1,0 +1,62 @@
+#message .col-lg-3 {
+    padding: 4%;
+    border-top-left-radius: $default-border-radius;
+    border-bottom-left-radius: $default-border-radius;
+}
+
+#message .contact-info {
+    margin-top:10%;
+}
+
+#message .contact-form textarea {
+    resize: none;
+}
+
+#message .contact-info h2 {
+    margin-bottom: 10%;
+}
+
+#message .col-lg-9 {
+    padding: 3%;
+    border-top-right-radius: $default-border-radius;
+    border-bottom-right-radius: $default-border-radius;
+}
+
+#message .contact-form label {
+    font-weight:600;
+}
+
+#message .row.shadow .form-control {
+    border-radius: $default-border-radius;
+}
+
+#message .btn a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+#message .contact-form button {
+    border-radius: $default-border-radius;
+    width: 25%;
+}
+
+#message .modal-content {
+    border-radius: $default-border-radius;
+}
+
+#message .modal-content .form-control {
+    border-radius: $default-border-radius;
+}
+
+@media only screen and (max-width:992px) {
+    #message .col-lg-9 {
+        border-bottom-left-radius: $default-border-radius;
+        border-top-right-radius: 0;
+    }
+
+    #message .col-lg-3 {
+        border-bottom-left-radius:0;
+        border-top-right-radius: $default-border-radius;
+        padding-top: 0rem;
+    }
+}

@@ -1,0 +1,44 @@
+@use "sass:map";
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+/****************** FONT *****************/
+$font-body: Ubuntu, sans-serif;
+
+/************* REMOVE ARROWS FROM NUMERICAL INPUTS ************/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/****************** COLORS *****************/
+$theme-colors: ("primary": #222831, //background color
+  "secondary": #31363d, //similar to primary
+  "header": #eeeeee, //header color -> needs to be contrasty w/ primary
+  "accent": #00adb5, //accent color
+  "card": #eeeeee, //color for the cards
+  "card-text": #222831 //text color inside cards
+);
+
+
+$header-color: map-get($map: $theme-colors, $key: "header");
+$body-color: map-get($map: $theme-colors, $key: "primary");
+$secondary-color: map-get($map: $theme-colors, $key: "secondary");
+$accent-color: map-get($map: $theme-colors, $key: "accent");
+$card-color: map-get($map: $theme-colors, $key: "card");
+$card-text-color: map-get($map: $theme-colors, $key: "card-text");
+
+
+/****************** BORDERS *****************/
+$default-border-radius: 13px;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";

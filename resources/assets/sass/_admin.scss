@@ -1,0 +1,57 @@
+#admin .btn {
+    border-radius: $default-border-radius;
+}
+
+#admin .btn {
+    border-radius: $default-border-radius;
+}
+
+#admin img {
+    border-radius: $default-border-radius;
+}
+
+#admin #admin-table {
+    border-radius: $default-border-radius;
+}
+
+#admin #nav-tab > a {
+    color: $accent-color;
+    font-weight: bolder;
+}
+
+#admin #nav-contact .btn.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#admin #nav-contact .card:nth-child(1) {
+    border-top-right-radius: $default-border-radius;
+    border-top-left-radius: $default-border-radius;
+}
+
+#admin #nav-contact .card:nth-last-of-type(1) {
+    border-bottom-right-radius: $default-border-radius;
+    border-bottom-left-radius: $default-border-radius;
+}
+
+#admin #nav-profile img {
+    border-radius: $default-border-radius;
+}
+
+#admin #nav-profile a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+#admin table {
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+#admin .modal-content {
+    border-radius: $default-border-radius;
+}
+
+#admin .modal-content .form-control {
+    border-radius: $default-border-radius;
+}

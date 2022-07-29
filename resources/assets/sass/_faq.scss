@@ -1,0 +1,26 @@
+#faq .card.bg-card:nth-of-type(1) {
+    border-top-right-radius: $default-border-radius;
+    border-top-left-radius: $default-border-radius;
+}
+
+#faq .card.bg-card:nth-last-of-type(1) {
+    border-bottom-right-radius: $default-border-radius;
+    border-bottom-left-radius: $default-border-radius;
+}
+
+#faq .card .btn.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#faq .modal-content {
+    border-radius: $default-border-radius;
+}
+
+#faq .modal-content .form-control {
+    border-radius: $default-border-radius;
+}
+
+#faq .btn {
+    border-radius: $default-border-radius;
+}

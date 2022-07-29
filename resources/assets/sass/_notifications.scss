@@ -1,0 +1,18 @@
+#notifications #first-question {
+    border-top-left-radius: $default-border-radius;
+    border-top-right-radius: $default-border-radius;
+}
+
+#notifications #second-question {
+    border-bottom-left-radius: $default-border-radius;
+    border-bottom-right-radius: $default-border-radius;
+}
+
+#notifications .card .btn.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#notifications .btn {
+    border-radius: $default-border-radius;
+}

@@ -1,0 +1,13 @@
+#about .card {
+    border-radius: $default-border-radius;
+}
+
+#about .card img {
+    border-radius: $default-border-radius;
+}
+
+@media only screen and (min-width:992px) {
+    #about .card .card-body p {
+        height: 5rem;
+    }
+}

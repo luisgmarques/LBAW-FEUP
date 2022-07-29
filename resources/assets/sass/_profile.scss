@@ -1,0 +1,50 @@
+#profile #profile-table {
+    border-radius: $default-border-radius;
+}
+
+#profile .col-lg-3 {
+    background: $secondary-color;
+    border-bottom-left-radius: $default-border-radius;
+    padding-top: 2%;
+}
+
+#profile img {
+    border-radius: $default-border-radius;
+}
+
+#profile .modal-content {
+    border-radius: $default-border-radius;
+}
+
+#profile .modal-content .form-control {
+    border-radius: $default-border-radius;
+}
+
+#profile .btn {
+    border-radius: $default-border-radius;
+}
+
+#profile #nav-tab > a {
+    color: $accent-color;
+    font-weight: bolder;
+}
+
+#profile #nav-contact .btn.btn-link {
+    font-weight: bold;
+}
+
+#profile .nav-item {
+    color: $card-text-color;
+}
+
+#profile .table a {
+    color: $accent-color;
+}
+
+#profile #nav-tabContent:active {
+    height: 10rem;
+}
+
+#profile .image-size {
+    height: 10rem;
+}

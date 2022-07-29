@@ -1,0 +1,57 @@
+#auction .carousel-inner {
+    border-radius: $default-border-radius;
+}
+
+#auction .value-holder {
+    border-radius: $default-border-radius;
+}
+
+#auction #amount {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#auction #make-bid {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#auction .form-control {
+    border-radius: $default-border-radius;
+}
+
+#auction .btn {
+    border-radius: $default-border-radius;
+}
+
+#auction #seller-picture {
+    border-radius: $default-border-radius;
+}
+
+#auction #auction-table {
+    border-radius: $default-border-radius;
+}
+
+#auction #auction-table a {
+    text-decoration: none;
+    color: $accent-color;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:992px) {
+    #auction #title-auction {
+        margin-top: 1rem;
+    }
+    
+    #auction #price-auction {
+        margin-top: -2rem;
+    }
+
+    #auction #bet-auction {
+        margin-top: -2rem;
+    }
+
+    #auction #make-bid a {
+        display: none;
+    }
+}

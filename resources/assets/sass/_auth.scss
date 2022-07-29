@@ -1,0 +1,67 @@
+#auth .col-lg-3 {
+    padding: 4%;
+    border-top-left-radius: $default-border-radius;
+    border-bottom-left-radius: $default-border-radius;
+}
+
+#auth .form-group img {
+    height: 8rem;
+    width: auto;
+}
+
+#auth .contact-info {
+    margin-top: 10%;
+}
+
+#auth .contact-form textarea {
+    resize: none;
+}
+
+#auth .contact-info h2 {
+    margin-bottom: 10%;
+}
+
+#auth .col-lg-9 {
+    padding: 3%;
+    border-top-right-radius: $default-border-radius;
+    border-bottom-right-radius: $default-border-radius;
+}
+
+#auth .contact-form label {
+    font-weight: 600;
+}
+
+#auth .row.shadow .form-control {
+    border-radius: $default-border-radius;
+}
+
+#auth a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+#auth .btn a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+#auth button {
+    border-radius: $default-border-radius;
+    width: 20%;
+}
+
+@media only screen and (max-width:992px) {
+    #auth .col-lg-9 {
+        border-bottom-left-radius: $default-border-radius;
+        border-top-right-radius: 0;
+    }
+
+    #auth .col-lg-3 {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: $default-border-radius;
+    }
+
+    #auth button {
+        width: 40%;
+    }
+}

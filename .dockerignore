@@ -1,0 +1,6 @@
+Dockerfile
+upload_image.sh
+README.md
+docs
+node_modules
+public/storage

@@ -1,0 +1,44 @@
+body {
+    font-family: $font-body;
+    background-color: $body-color;
+}
+
+main {
+    margin-top: 3.5rem;
+}
+
+.bg-main {
+    background-color: $header-color;
+}
+
+#homepage .card {
+    border-radius: $default-border-radius;
+}
+
+#homepage .card-img-top {
+    border-top-left-radius: $default-border-radius;
+    border-top-right-radius: $default-border-radius;
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+#homepage .container {
+    margin-bottom: 1rem;
+}
+
+#homepage .carousel-item img {
+    height: 30rem;
+}
+
+#homepage .text-header {
+    margin-bottom: 0%;
+}
+
+#homepage .btn {
+    border-radius: $default-border-radius;
+}
+
+@media only screen and (max-width:992px) {
+    .img-thumbnail{margin-top:1rem}
+}

@@ -1,0 +1,26 @@
+#messages #first-question {
+    border-top-left-radius: $default-border-radius;
+    border-top-right-radius: $default-border-radius;
+}
+
+#messages #second-question {
+    border-bottom-left-radius: $default-border-radius;
+    border-bottom-right-radius: $default-border-radius;
+}
+
+#messages .card .btn.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#messages .btn {
+    border-radius: $default-border-radius;
+}
+
+#messages .modal-content {
+    border-radius: $default-border-radius;
+}
+
+#messages .modal-content .form-control {
+    border-radius: $default-border-radius;
+}
